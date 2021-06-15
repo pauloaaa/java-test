@@ -9,7 +9,7 @@ public interface UserWS {
 
 	public UserResponse saveRegister(UserRequest request);
 	
-	public UserResponse saveRegisters(UsersRequest request);
+	public UserListResponse saveRegisters(UsersRequest request);
 	
 	public UserListResponse listRegisters();
 	

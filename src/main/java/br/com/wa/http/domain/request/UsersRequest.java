@@ -1,5 +1,6 @@
 package br.com.wa.http.domain.request;
 
+import br.com.wa.domain.user.User;
 import java.util.List;
 
 import javax.validation.constraints.Size;
@@ -14,6 +15,6 @@ import lombok.NoArgsConstructor;
 public class UsersRequest {
 	
 	@Size(min = 2, max = 50)
-	private List<UserRequest> users;
+	private List<User> users;
 	
 }
